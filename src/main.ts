@@ -1,4 +1,4 @@
-import './style.css'
+import '../style.css'
 const app = document.querySelector<HTMLElement>("#app")
 let gameSrc = ''
 
@@ -16,5 +16,3 @@ checkDeviceType()
 app!.innerHTML = `
   <iframe id="iframe" src=${gameSrc} frameborder="0"></iframe>
 `
-
-// <iframe id="iframe" src="/mobileGame/BennyStarfighter_mobile.html" frameborder="0"></iframe>
